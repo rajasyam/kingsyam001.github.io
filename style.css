@@ -3,10 +3,7 @@
 /* End Font */
 /* start body */
 body{
-    background: rgb(41,154,11);
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(41,154,11,1) 0%, rgba(41,154,11,1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%);
-    background: radial-gradient(ellipse at center,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%);
+    background-image: url(img/2.jpg);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=1 );
     font-family: roboto, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -90,6 +87,10 @@ a:active{
 /* End Anchor / Hyperlink */
 
 /* start menu primer */
+.menu-primer ul li{
+    display: inline-block;
+    position: relative;
+}
 .menu-primer ul{
     background-color: rgb(98,125,77);
     background: -moz-linear-gradient(top,  rgba(98,125,77,1) 0%, rgba(31,59,8,1) 100%); 
@@ -101,6 +102,9 @@ a:active{
     0 3px 5px -1px rgba(0, 0, 0, .2),
     0 6px 10px 0 rgba(0, 0, 0, .14),
     0 1px 10px 0 rgba(0,0,0,.12);
+    text-align: center;
+    top: 20px;
+    left: 0;
 }
 .menu-primer li{
     display: inline-block;
